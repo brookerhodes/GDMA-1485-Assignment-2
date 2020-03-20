@@ -8,13 +8,11 @@
 </head>
 
 <body>
-  <header>
+  <header id="take-action-header">
     <div class="wrapper">
+		<img src="img/bedford-logo.png" alt="logo">
         <div class="row">
-             <div id="logo">
-                <h1>Bedford Foundation</h1>
-                 <p><span>Take Action</span></p>
-             </div>
+            
              <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -22,38 +20,94 @@
                     <li><a href="#">Take Action</a></li>
                 </ul>
             </nav>
+		 </div>
+		<div id="take-headline">
+			<div class="row">
+			<p>Take Action</p>
+			</div>
+		</div>
+		
         </div>
-    </div>
   </header>
 	<div class="wrapper">
 		<div class="row">
 			<div id="col-3">
-			<p>You can make a difference. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci fauci</p>
+			<p>You can make a difference. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus</p>
 			</div>
 			<div class="row">
-				<div id="col-1-1">
-					<h2>Donate</h2>
+				<div class="col-action">
+					<p>Donate</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci </p>
-					<p><a href="btn-donation">Make a Donation</a></p>
+					<p class="btn-3"><a href="btn-donation">Make a Donation</a></p>
 				</div>
-				<div id="col-1-2">
-					<h2>Spread the Word</h2>
+				<div class="col-action">
+					<p>Spread the Word</p>
 					<p>Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin.</p>
-					<p><a href="btn-share-social">Share on Social Media</a></p>
+					<p class="btn-3"><a href="btn-share-social">Share on Social Media</a></p>
 				</div>
-				<div id="col-1-3">
-					<h2>Volunteer</h2>
-					<p> Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis</p>
-					<p><a href="btn-join">Join the Foundation</a></p>
+				<div class="col-action">
+					<p>Volunteer</p>
+					<p>Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<p class="btn-3"><a href="btn-join">Join the Foundation</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 	
-	<form>
-	<p>Sign up to Volunteer<p>
-	</form>
 	
+	
+<form>
+	<fieldset>
+			<legend>Sign up to Volunteer&#33;</legend>
+			<div>
+			<div class="row">
+             
+			<label for="first-name">First Name</label>
+			<input type="text" name="First Name" id="first-name">
+				
+			<label for="last-name">Last Name</label>
+			<input type="text" name="Last Name" id="last-name">
+			</div>
+			</div>
 			
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email">
+		
+			<label for="involved">I would like to get involved with:</label>
+			<input type="text" name="browsers" list="browsers">
+		
+		<datalist id="browsers">
+			<option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+ 		 </datalist>
+		
+		
+			<p><a href="#">Submit</a></p>
+			
+		</fieldset>
+</form>
+	
+<footer>
+	<div class="wrapper">
+	<div id="green-wrapper">
+		<img src="img/three-sprites.png" alt="">
+	</div>
+	<div id="black-wrapper" >
+		<ul>
+			<li>459 Broadway,New York</li>
+			<li>&#40;212&#41; 555-0123</li>
+			<li>Template@gmail.com</li>
+		</ul>
+		
+	
+	</div>
+	
+	</div>
+</footer>
+	
+	
 </body>
 </html>
